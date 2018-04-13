@@ -1,6 +1,15 @@
 # bitrise.ymlをリポジトリ内で管理するための手引き
 
-`Bitrise` `CI`
+`Android` `iOS` `CI` `reactnative` `Bitrise`
+
+Bitriseはモバイル開発向けのCIサービス => [bitrise.io](https://www.bitrise.io/)
+
+|<img width="430" alt="build_for.png" src="https://qiita-image-store.s3.amazonaws.com/0/178904/8f3e5cb1-eb1f-f0d0-22fa-661542561b17.png">|
+|:-:|
+
+無料の範囲でiOSビルドを行うことができるので、個人プロジェクトにはありがたい。今回はReactNativeプロジェクトのリポジトリを設定して動かして見た。
+
+## bitrise.ymlでワークフローを設定する
 
 Bitriseにリポジトリを設定した初期段階では、bitrise.ymlはサービス側（bitrise.io）で管理されているが、それをプロジェクトのリポジトリ内で管理したい。そんなとき。
 
@@ -14,7 +23,7 @@ Bitriseにリポジトリを設定した初期段階では、bitrise.ymlはサ�
 
 bitrise.ioでトリガーマップの設定をすれば、下図のワークフローが始まる前にトリガーのパターンに応じて処理をしないというフローも作れるのだが、全てをリポジトリ内で持つと必ずクローンしなければならなくなる。
 
-|![bitrise_flow01.png](https://qiita-image-store.s3.amazonaws.com/0/178904/9de13775-0c23-b62f-e5cc-8c950fee5b8f.png)|
+|![bitrise_flow01.png](https://qiita-image-store.s3.amazonaws.com/0/178904/00965864-17cb-e654-91a6-78cb591e6ddc.png)|
 |:-:|
 
 なので公式ではbitrise.ymlを分けて持つことが推奨されている。
@@ -26,13 +35,13 @@ bitrise.ioでトリガーマップの設定をすれば、下図のワークフ�
 
 - bitrise.io上のbitrise.ymlをダウンロード
 - リポジトリ直下にbitrise.ymlを置く
-- リポジトリ内のbitrise.ymlの`steps`にある`activate-ssh-key`と`git-clone`の行を削除する
+- リポジトリ内のbitrise.ymlの`steps`にある`activate-ssh-key`と`git-clone`の設定を削除する
 - bitrise.ioのbitrise.ymlの内容を公式記載の設定で上書きする
 - あとはpushすれば動きます（ということだ）
 
 作業をした後のbitrise.io上のWorkFlowsは下のような感じになる。
 
-|![bitrise_flow02.png](https://qiita-image-store.s3.amazonaws.com/0/178904/b38eb1b5-69c3-5fa5-1dd7-ab028dc1a593.png)|
+|![bitrise_flow02.png](https://qiita-image-store.s3.amazonaws.com/0/178904/d71036ec-5fe3-e4bf-d405-9cd084bafaa6.png)|
 |:-:|
 
 
@@ -56,7 +65,7 @@ bitrise.ioでトリガーマップの設定をすれば、下図のワークフ�
 
 ## 以上
 
-![bitrise_logo.png](https://qiita-image-store.s3.amazonaws.com/0/178904/179b4018-19ae-14d5-9767-a982abb5cffd.png)
+![bitrise_logo.png](https://qiita-image-store.s3.amazonaws.com/0/178904/d9abd1e4-d4cf-d833-1f13-942a20b125d5.png)
 
 - Bitriseのアイコン可愛い。癒される〜
 - Bitriseのアイコン可愛い。癒される〜
