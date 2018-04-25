@@ -4,6 +4,7 @@ https://qiita.com/mqtsuo02
 
 ## Articles
 
+- [react-primitivesのTypeScript型定義ファイルをつくる](./react-primitives-types.md)
 - [メロンのはなし（melonJSで始めるゲーム開発入門）](./melonjs.md)
 - [US配列のキーボードをJIS配列のMacBookにマウンティングした思い出](./us-keyboard-mounting.md)
 - [bitrise.ymlをリポジトリ内で管理するための手引き](./bitrise-repository.md)
