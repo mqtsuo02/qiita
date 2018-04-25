@@ -6,7 +6,7 @@
 
 ![melonman.png](https://qiita-image-store.s3.amazonaws.com/0/178904/94020aea-4797-1ca5-e3d1-03f8e36e72a4.png)
 
-モダンなJSと日々奮闘しているそこのあなた！！（ほし）
+モダンなJSと日々奮闘しているそこのあなた！！（ほし）  
 あまいあま〜いメロンの国へいざなっちゃうゾ！！（はーと）
 
 ## melonJS
@@ -23,7 +23,7 @@
 
 ちなみに筆者の手作り（ひどい作り）
 
-<img width="864" alt="mytown.png" src="https://qiita-image-store.s3.amazonaws.com/0/178904/efef97eb-01b5-2da8-f565-df54081d2ccb.png">
+![mytown.png](https://qiita-image-store.s3.amazonaws.com/0/178904/25962eef-4c95-3719-1eb6-8e8a9a5d24e1.png)
 
 github => [mqtsuo02/melonjs-town-sample](https://github.com/mqtsuo02/melonjs-town-sample)
 
@@ -86,7 +86,7 @@ Tiledマップエディタを起動 & 新規マップの作成 => `data/map/`に
 
 レイヤーを前面と背面分けて作るといい（物が前面、地面/水面が背面）
 
-<img width="1095" alt="draw_down.png" src="https://qiita-image-store.s3.amazonaws.com/0/178904/02fb5028-d938-e641-142b-07f37b9f75a1.png">
+![draw_town.png](https://qiita-image-store.s3.amazonaws.com/0/178904/69391146-a5cd-49fb-f990-97b457420d06.png)
 
 左側を描いたら力尽きた図
 
@@ -100,8 +100,7 @@ Tiledマップエディタを起動 & 新規マップの作成 => `data/map/`に
 
 ここまでで`grunt serve` => ブラウザにマップが表示されていればOK
 
-<img width="750" alt="browser_map.png" src="https://qiita-image-store.s3.amazonaws.com/0/178904/e3569e0a-91a2-e8d4-ef5f-cedfbb322408.png">
-
+![browser_map.png](https://qiita-image-store.s3.amazonaws.com/0/178904/2c3fb6f6-cc31-ed13-c5cc-1d39f7fa7605.png)
 
 ここまでやると結構満足感がある
 
@@ -172,15 +171,15 @@ if (me.input.isKeyPressed("left")) {
 
 `collision`って名付けたオブジェクトレイヤを作って、長方形ツールで壁を書く
 
-<img width="1202" alt="collision.png" src="https://qiita-image-store.s3.amazonaws.com/0/178904/60370bb9-fa03-c7c3-a47b-8bff8e17dca2.png">
+![collision.png](https://qiita-image-store.s3.amazonaws.com/0/178904/90503410-f05d-8419-f32b-45e7d2824aa0.png)
 
 それだけでOK！！主人公がちゃんとぶつかるか確認しよう！！
 
-<img width="864" alt="datsugoku.png" src="https://qiita-image-store.s3.amazonaws.com/0/178904/ff0782bf-4112-2434-5e48-1cbb32beabaf.png">
+![datsugoku.png](https://qiita-image-store.s3.amazonaws.com/0/178904/63506006-7b90-b0a3-2653-98cf621cf816.png)
 
 ......ん？？？
 
-|<img width="530" alt="datsugokugoku.png" src="https://qiita-image-store.s3.amazonaws.com/0/178904/ad5b8f3a-b31b-492b-214a-e2ab0730aa53.png">|
+|![datsugokugoku.png](https://qiita-image-store.s3.amazonaws.com/0/178904/ec6a7254-1e50-1a9a-5781-6f2d07c5f16f.png)|
 |:-:|
 
 シャバの空気はうめぇ〜！！！！
